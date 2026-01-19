@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "out",
+    "site": "ieee-link-2025",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
