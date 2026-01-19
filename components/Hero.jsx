@@ -88,14 +88,7 @@ const Hero = () => {
                         transition={{ delay: 0.5 }}
                         className="grid grid-cols-2 gap-6 pt-8 border-t border-gray-200 mt-8 font-mono text-sm text-[#002855]"
                     >
-                        <div className="flex items-center gap-2">
-                            <Users className="text-[#00B5E2]" />
-                            <span>15,000+ Members</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <MapPin className="text-[#00B5E2]" />
-                            <span>100+ Student Branches</span>
-                        </div>
+
                     </motion.div>
                 </div>
 
